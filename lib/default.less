@@ -1,0 +1,100 @@
+//VARIAVEIS
+@smart: 300px;
+@desk: 301px;
+
+
+//FONTES
+@font-face {
+	src: url("../fonts/Evogria.otf");
+	font-family: evogria;
+}
+
+
+//CODIGO
+
+//PADROES
+*{border: 0; padding: 0; margin: 0;}
+html, body {background-color: #fbfbfb;}
+
+//PARA DESKTOP
+@media (min-width: @desk) {
+	
+
+//HEADER
+header {
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+	
+	h1 {
+		padding: 4px 0px 4px 4px;
+		
+		img {
+			max-width: 290px;
+			height: auto;
+		}
+		
+	}
+}
+	
+
+//MENU
+main {
+	width: 100%;
+	height: auto;
+	background-color: #4b4b4b;
+	
+	#eqmain {
+		width: 1024px;
+		margin: 0 auto;
+	
+		ul{
+			list-style: none;
+			padding: 20px 20px 20px 0px;
+			text-align: right;
+			
+			a {
+				text-decoration: none;
+				color: #fff;
+				
+				li {
+					display: inline-block;
+					font-family: evogria, Tahoma, Arial;
+					text-transform: lowercase;
+				}
+			}
+			
+		}
+		
+	}
+}
+
+
+} //FIM DE LAYOUT DESKTOP
+
+
+
+// *******************************************************************************************************************
+
+
+
+//PARA MOBILE
+@media (max-width: @smart) {
+	
+	
+
+} //FIM DE LAYOUT MOBILE
+
+
+
+
+
+
+
+
+
+
+
+
+
+

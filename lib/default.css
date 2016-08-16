@@ -1,0 +1,50 @@
+@font-face {
+  src: url("../fonts/Evogria.otf");
+  font-family: evogria;
+}
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  background-color: #fbfbfb;
+}
+@media (min-width: 301px) {
+  header {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+  }
+  header h1 {
+    padding: 4px 0px 4px 4px;
+  }
+  header h1 img {
+    max-width: 290px;
+    height: auto;
+  }
+  main {
+    width: 100%;
+    height: auto;
+    background-color: #4b4b4b;
+  }
+  main #eqmain {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  main #eqmain ul {
+    list-style: none;
+    padding: 20px 20px 20px 0px;
+    text-align: right;
+  }
+  main #eqmain ul a {
+    text-decoration: none;
+    color: #fff;
+  }
+  main #eqmain ul a li {
+    display: inline-block;
+    font-family: evogria, Tahoma, Arial;
+    text-transform: lowercase;
+  }
+}
